@@ -43,3 +43,10 @@
 - New feature for updating the CHANGELOG.md based on the contents of a PR.
 - Added support for this feature for the Github provider.
 - New configuration settings and prompts for the changelog update feature.
+
+## 2025-03-18
+
+### Added
+- Added a test section to the README.md to demonstrate PR-Agent features
+- Enhanced documentation for PR-Agent capabilities
+- Improved user onboarding experience

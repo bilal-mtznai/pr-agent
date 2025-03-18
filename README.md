@@ -49,6 +49,7 @@ PR-Agent aims to help efficiently review and handle pull requests, by providing 
 - [Qodo Merge](https://qodo-merge-docs.qodo.ai/overview/pr_agent_pro/)
 - [How it works](#how-it-works)
 - [Why use PR-Agent?](#why-use-pr-agent)
+- [Test PR-Agent Features](#test-pr-agent-features)
 
 ## News and Updates
 
@@ -260,9 +261,9 @@ https://openai.com/enterprise-privacy
 
 - When using Qodo Merge 💎, hosted by Qodo, we will not store any of your data, nor will we use it for training. You will also benefit from an OpenAI account with zero data retention.
 
-- For certain clients, Qodo-hosted Qodo Merge will use Qodo’s proprietary models — if this is the case, you will be notified.
+- For certain clients, Qodo-hosted Qodo Merge will use Qodo's proprietary models — if this is the case, you will be notified.
 
-- No passive collection of Code and Pull Requests’ data — Qodo Merge will be active only when you invoke it, and it will then extract and analyze only data relevant to the executed command and queried pull request.
+- No passive collection of Code and Pull Requests' data — Qodo Merge will be active only when you invoke it, and it will then extract and analyze only data relevant to the executed command and queried pull request.
 
 ### Qodo Merge Chrome extension
 
@@ -275,3 +276,15 @@ https://openai.com/enterprise-privacy
 - Blog: https://www.qodo.ai/blog/
 - Troubleshooting: https://www.qodo.ai/blog/technical-faq-and-troubleshooting/
 - Support: support@qodo.ai
+
+## Test PR-Agent Features
+
+This section is added to test the PR-Agent's capabilities for analyzing pull requests. The PR-Agent can provide:
+
+1. Automated code reviews with `/review` command
+2. PR descriptions with `/describe` command
+3. Code improvement suggestions with `/improve` command
+4. Answers to questions about the code with `/ask` command
+5. Changelog updates with `/update_changelog` command
+
+The tool is designed to help teams save time on PR reviews while maintaining high code quality standards.
